@@ -1,0 +1,51 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #05386B;
+  background-color: #5cdb95;
+  background-image: url(./components/Images/homebg.svg);
+  overflow-x: hidden;
+  animation: fadeInAnimation ease 3s;
+  animation-iteration-count: 1; 
+  animation-fill-mode: forwards; 
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@keyframes fadeInAnimation { 
+  0% { 
+      opacity: 0; 
+  } 
+  100% { 
+      opacity: 1; 
+   } 
+} 
+
+/* Scrollbar for Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #05386b #5cdb95;
+}
+
+/* Scrollbar for Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 8px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #5cdb95;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #05386b;
+  border-radius: 2rem;
+  border: 3px solid #379683;
+}

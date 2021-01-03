@@ -1,0 +1,61 @@
+<svg width="100%" height="100%" viewBox="0 0 460 460" fill="none" xmlns="http://www.w3.org/2000/svg">
+<style>
+	#right{
+        animation : updown 1.1s ease-in-out infinite alternate;
+        transform-origin : top;
+        transform-box : fill-box;
+    }
+    #left{
+        animation : downup .8s ease-in-out infinite alternate;
+        transform-origin : top;
+        transform-box : fill-box;
+    }
+    @keyframes updown{
+        from{
+            transform:rotateX(0deg);
+        }
+        to{
+            transform:rotateX(30deg);
+        }
+    }
+    @keyframes downup{
+        from{
+            transform:rotateX(30deg);
+        }
+        to{
+            transform:rotateX(0deg);
+        }
+    }
+</style>
+<g id="balance 1">
+<g id="XMLID 894">
+<path id="righthand" d="M250 133.956H380.218V103.956L260 80L250 133.956Z" fill="#07529C"/>
+<path id="lefthand" d="M210 133.956H79.782V103.956L200 80L210 133.956Z" fill="#085FB4"/>
+<g id="left">
+<path id="XMLID 897" d="M93.43 123.966L159.56 257.246L132.69 270.586L79.78 163.956V123.966H93.43Z" fill="#085FB4"/>
+<path id="XMLID 898" d="M79.78 123.966V163.956L26.87 270.586L0 257.246L66.13 123.966H79.78Z" fill="#096CCD"/>
+<path id="XMLID 899" d="M79.782 163.956C96.3505 163.956 109.782 150.525 109.782 133.956C109.782 117.387 96.3505 103.956 79.782 103.956C63.2135 103.956 49.782 117.387 49.782 133.956C49.782 150.525 63.2135 163.956 79.782 163.956Z" fill="#07529C"/>
+<path id="XMLID 900" d="M79.78 257.25L89.78 297.14L79.78 337.03C35.79 337.03 0 301.24 0 257.25H79.78Z" fill="#085FB4"/>
+<path id="XMLID 901" d="M79.78 257.25H159.56C159.56 301.24 123.77 337.03 79.78 337.03V257.25Z" fill="#07529C"/>
+</g>
+<g id="right">
+<path id="XMLID 902" d="M393.87 123.966L460 257.246L433.13 270.586L380.22 163.956V123.966H393.87Z" fill="#07529C"/>
+<path id="XMLID 903" d="M380.22 123.966V163.956L327.31 270.586L300.44 257.246L366.57 123.966H380.22Z" fill="#085FB4"/>
+<path id="XMLID 905" d="M380.218 163.956C396.787 163.956 410.218 150.525 410.218 133.956C410.218 117.387 396.787 103.956 380.218 103.956C363.649 103.956 350.218 117.387 350.218 133.956C350.218 150.525 363.649 163.956 380.218 163.956Z" fill="#05386B"/>
+<path id="XMLID 906" d="M380.22 257.25L390.22 297.14L380.22 337.03C336.23 337.03 300.44 301.24 300.44 257.25H380.22Z" fill="#07529C"/>
+<path id="XMLID 909" d="M380.22 257.25H460C460 301.24 424.21 337.03 380.22 337.03V257.25Z" fill="#05386B"/>
+</g>
+<g id="center">
+<path id="XMLID 896" d="M240 70V410H200V80L240 70Z" fill="#096CCD"/>
+<path id="XMLID 907" d="M230 400L240 440L150 430L170 400H230Z" fill="#085FB4"/>
+<path id="XMLID 908" d="M230 430L240 445L230 460H120V430H230Z" fill="#096CCD"/>
+<path id="XMLID 910" d="M240 20V80H200V30L240 20Z" fill="#085FB4"/>
+<path id="XMLID 911" d="M260 80V410H230V80L245 70L260 80Z" fill="#085FB4"/>
+<path id="XMLID 912" d="M340 430H230V460H340V430Z" fill="#085FB4"/>
+<path id="XMLID 913" d="M290 400L310 430H230V400H290Z" fill="#07529C"/>
+<path id="XMLID 914" d="M260 30V80H230V20L260 30Z" fill="#07529C"/>
+<path id="XMLID 915" d="M230 0C213.431 0 200 13.431 200 30H260C260 13.431 246.569 0 230 0Z" fill="#05386B"/>
+</g>
+</g>
+</g>
+</svg>
