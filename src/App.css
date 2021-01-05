@@ -480,7 +480,7 @@ input{
     width: 14vw;
   }
   .footer-icons {
-    width: 70vw;
+    width: 85vw;
   }
   .footer hr{
     width: 75%;
@@ -804,6 +804,9 @@ input{
   }
   #currencyOpt {
     width: 14vw;
+  }
+  #list {
+    width: 48vw;
   }
 }
 
