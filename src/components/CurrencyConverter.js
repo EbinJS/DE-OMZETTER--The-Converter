@@ -97,8 +97,8 @@ export default function CurrencyConverter() {
 
     return (
         <div className='currencyConvert'>
-            <div className='description' style={{paddingTop:'10em'}}>
-                <h2>Currency Converter</h2>
+            <div className='description' id='currencyconverthead'>
+                <h2 id='currencytitle'>Currency Converter</h2>
             </div>
             <div id='currencyboxes'>
                 <Currency 

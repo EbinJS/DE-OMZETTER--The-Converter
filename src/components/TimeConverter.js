@@ -84,8 +84,8 @@ export default function TimeConverter() {
 
     return (
         <div className='contents'>
-            <div className='description'>
-                <h2>Time Converter</h2>
+            <div className='description' id='unithead'>
+                <h2 id='unittitle'>Time Converter</h2>
                 <p>6 different units of time.</p>
             </div>
             <div className='convert'>

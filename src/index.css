@@ -11,6 +11,7 @@ body {
   background-image: url(./components/Images/homebg.svg);
   overflow-x: hidden;
   animation: fadeInAnimation ease 3s;
+  animation-delay: 2.1s;
   animation-iteration-count: 1; 
   animation-fill-mode: forwards; 
 }

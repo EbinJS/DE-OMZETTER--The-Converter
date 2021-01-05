@@ -1,5 +1,21 @@
-<svg width="100%" height="100%" viewBox="0 0 460 460" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="100%" height="100%" viewBox="0 0 468 460" fill="none" xmlns="http://www.w3.org/2000/svg">
 <style>
+    #hands{
+        animation : seesaw 1.2s ease-in-out infinite alternate;
+        transform-origin : top;
+        transform-box : fill-box;
+    }
+    @keyframes seesaw{
+        0%{
+            transform:rotateZ(0deg);
+        }
+        50%{
+            transform:rotateZ(1.4deg);
+        }
+        100%{
+            transform:rotateZ(-1.4deg);
+        }
+    }
 	#right{
         animation : updown 1.1s ease-in-out infinite alternate;
         transform-origin : top;
@@ -27,35 +43,44 @@
         }
     }
 </style>
-<g id="balance 1">
 <g id="XMLID 894">
-<path id="righthand" d="M250 133.956H380.218V103.956L260 80L250 133.956Z" fill="#07529C"/>
-<path id="lefthand" d="M210 133.956H79.782V103.956L200 80L210 133.956Z" fill="#085FB4"/>
-<g id="left">
-<path id="XMLID 897" d="M93.43 123.966L159.56 257.246L132.69 270.586L79.78 163.956V123.966H93.43Z" fill="#085FB4"/>
-<path id="XMLID 898" d="M79.78 123.966V163.956L26.87 270.586L0 257.246L66.13 123.966H79.78Z" fill="#096CCD"/>
-<path id="XMLID 899" d="M79.782 163.956C96.3505 163.956 109.782 150.525 109.782 133.956C109.782 117.387 96.3505 103.956 79.782 103.956C63.2135 103.956 49.782 117.387 49.782 133.956C49.782 150.525 63.2135 163.956 79.782 163.956Z" fill="#07529C"/>
-<path id="XMLID 900" d="M79.78 257.25L89.78 297.14L79.78 337.03C35.79 337.03 0 301.24 0 257.25H79.78Z" fill="#085FB4"/>
-<path id="XMLID 901" d="M79.78 257.25H159.56C159.56 301.24 123.77 337.03 79.78 337.03V257.25Z" fill="#07529C"/>
-</g>
+<g id="hands" filter="url(#filter0_d)">
+<path id="righthand" d="M254 133.956H384.218V103.956L264 80L254 133.956Z" fill="#07529C"/>
+<path id="lefthand" d="M214 133.956H83.782V103.956L204 80L214 133.956Z" fill="#085FB4"/>
 <g id="right">
-<path id="XMLID 902" d="M393.87 123.966L460 257.246L433.13 270.586L380.22 163.956V123.966H393.87Z" fill="#07529C"/>
-<path id="XMLID 903" d="M380.22 123.966V163.956L327.31 270.586L300.44 257.246L366.57 123.966H380.22Z" fill="#085FB4"/>
-<path id="XMLID 905" d="M380.218 163.956C396.787 163.956 410.218 150.525 410.218 133.956C410.218 117.387 396.787 103.956 380.218 103.956C363.649 103.956 350.218 117.387 350.218 133.956C350.218 150.525 363.649 163.956 380.218 163.956Z" fill="#05386B"/>
-<path id="XMLID 906" d="M380.22 257.25L390.22 297.14L380.22 337.03C336.23 337.03 300.44 301.24 300.44 257.25H380.22Z" fill="#07529C"/>
-<path id="XMLID 909" d="M380.22 257.25H460C460 301.24 424.21 337.03 380.22 337.03V257.25Z" fill="#05386B"/>
+<path id="XMLID 897" d="M97.43 123.966L163.56 257.246L136.69 270.586L83.78 163.956V123.966H97.43Z" fill="#085FB4"/>
+<path id="XMLID 898" d="M83.78 123.966V163.956L30.87 270.586L4 257.246L70.13 123.966H83.78Z" fill="#096CCD"/>
+<path id="XMLID 899" d="M83.782 163.956C100.35 163.956 113.782 150.525 113.782 133.956C113.782 117.387 100.35 103.956 83.782 103.956C67.2135 103.956 53.782 117.387 53.782 133.956C53.782 150.525 67.2135 163.956 83.782 163.956Z" fill="#07529C"/>
+<path id="XMLID 900" d="M83.78 257.25L93.78 297.14L83.78 337.03C39.79 337.03 4 301.24 4 257.25H83.78Z" fill="#085FB4"/>
+<path id="XMLID 901" d="M83.78 257.25H163.56C163.56 301.24 127.77 337.03 83.78 337.03V257.25Z" fill="#07529C"/>
 </g>
-<g id="center">
-<path id="XMLID 896" d="M240 70V410H200V80L240 70Z" fill="#096CCD"/>
-<path id="XMLID 907" d="M230 400L240 440L150 430L170 400H230Z" fill="#085FB4"/>
-<path id="XMLID 908" d="M230 430L240 445L230 460H120V430H230Z" fill="#096CCD"/>
-<path id="XMLID 910" d="M240 20V80H200V30L240 20Z" fill="#085FB4"/>
-<path id="XMLID 911" d="M260 80V410H230V80L245 70L260 80Z" fill="#085FB4"/>
-<path id="XMLID 912" d="M340 430H230V460H340V430Z" fill="#085FB4"/>
-<path id="XMLID 913" d="M290 400L310 430H230V400H290Z" fill="#07529C"/>
-<path id="XMLID 914" d="M260 30V80H230V20L260 30Z" fill="#07529C"/>
-<path id="XMLID 915" d="M230 0C213.431 0 200 13.431 200 30H260C260 13.431 246.569 0 230 0Z" fill="#05386B"/>
+<g id="left">
+<path id="XMLID 902" d="M397.87 123.966L464 257.246L437.13 270.586L384.22 163.956V123.966H397.87Z" fill="#07529C"/>
+<path id="XMLID 903" d="M384.22 123.966V163.956L331.31 270.586L304.44 257.246L370.57 123.966H384.22Z" fill="#085FB4"/>
+<path id="XMLID 905" d="M384.218 163.956C400.787 163.956 414.218 150.525 414.218 133.956C414.218 117.387 400.787 103.956 384.218 103.956C367.649 103.956 354.218 117.387 354.218 133.956C354.218 150.525 367.649 163.956 384.218 163.956Z" fill="#05386B"/>
+<path id="XMLID 906" d="M384.22 257.25L394.22 297.14L384.22 337.03C340.23 337.03 304.44 301.24 304.44 257.25H384.22Z" fill="#07529C"/>
+<path id="XMLID 909" d="M384.22 257.25H464C464 301.24 428.21 337.03 384.22 337.03V257.25Z" fill="#05386B"/>
 </g>
 </g>
+<path id="XMLID 896" d="M244 70V410H204V80L244 70Z" fill="#096CCD"/>
+<path id="XMLID 907" d="M234 400L244 440L154 430L174 400H234Z" fill="#085FB4"/>
+<path id="XMLID 908" d="M234 430L244 445L234 460H124V430H234Z" fill="#096CCD"/>
+<path id="XMLID 910" d="M244 20V80H204V30L244 20Z" fill="#085FB4"/>
+<path id="XMLID 911" d="M264 80V410H234V80L249 70L264 80Z" fill="#085FB4"/>
+<path id="XMLID 912" d="M344 430H234V460H344V430Z" fill="#085FB4"/>
+<path id="XMLID 913" d="M294 400L314 430H234V400H294Z" fill="#07529C"/>
+<path id="XMLID 914" d="M264 30V80H234V20L264 30Z" fill="#07529C"/>
+<path id="XMLID 915" d="M234 0C217.431 0 204 13.431 204 30H264C264 13.431 250.569 0 234 0Z" fill="#05386B"/>
 </g>
+<defs>
+<filter id="filter0_d" x="0" y="80" width="468" height="265.03" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+<feOffset dy="4"/>
+<feGaussianBlur stdDeviation="2"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+</filter>
+</defs>
 </svg>

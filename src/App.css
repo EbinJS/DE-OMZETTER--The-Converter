@@ -1,5 +1,5 @@
 .loader{
-  height: 90vh;
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -78,7 +78,7 @@
   height: 3.2px;
   background-color: #05386b;
   margin:4px;
-
+  transition: .7s;
 }
 
 .home{
@@ -162,6 +162,7 @@
 .aboutdef{
   width: 100%;
   font-size: 16px;
+  text-align: justify;
 }
 
 .currencyConvert{
@@ -192,6 +193,16 @@
 
 .description h2{
   font-size: 40px;
+}
+
+#currencyconverthead{
+  padding-top: 10em;
+  width: 100%;
+}
+
+#currencytitle{
+  width: 100%;
+  text-align: center;
 }
 
 #nameList{
@@ -308,6 +319,10 @@
   justify-content: center;
 }
 
+#unithead{
+  width: 100%;
+}
+
 .convert{
   width: 70%;
   display: flex;
@@ -337,7 +352,7 @@ input{
   padding: .4em;
   padding-left: .9em;
 }
-
+/*------------------------------------------------------------------------------------------ 1200 width ----------------*/
 @media screen and (max-width: 1200px){
   html {
     font-size: 14px;
@@ -365,13 +380,13 @@ input{
     font-size: 14px;
   }
 }
-
+/*------------------------------------------------------------------------------------------ 1120 width ----------------*/
 @media screen and (max-width: 1120px) {
   html{
     font-size: 12px;
   }
 }
-
+/*------------------------------------------------------------------------------------------ 1000 width ----------------*/
 @media screen and (max-width: 1000px) {
   html{
     font-size: 11px;
@@ -413,7 +428,7 @@ input{
     height: 3vh;
   }
 }
-
+/*------------------------------------------------------------------------------------------ 950 width ----------------*/
 @media screen and (max-width: 950px) {
   .head{
     display: flex;
@@ -443,7 +458,7 @@ input{
     align-items: center;
     width: 40%;
     transform: translateX(100%);
-    transition : transform 0.5s ease-in;
+    transition : transform 0.7s ease-in;
     padding: 0;
   }
   .navbuttons{
@@ -452,6 +467,26 @@ input{
   
   .navclick{
     display: block;
+  }
+  #list{
+    width: 22vw;
+  }
+  .tabs{
+    height: 9vh;
+    width: 72vw;
+  }
+  .buttons{
+    font-size: 13px;
+    width: 14vw;
+  }
+  .footer-icons {
+    width: 70vw;
+  }
+  .footer hr{
+    width: 75%;
+  }
+  #unithead{
+    font-size: 28px;
   }
 }
 
@@ -474,7 +509,7 @@ input{
   to{
     opacity: 1;
     transform: translateX(0px);
-  }
+  } 
 }
 
 .toggle .line1{
@@ -485,4 +520,406 @@ input{
 }
 .toggle .line3{
   transform: rotate(45deg) translate(-4px,-6px);
+}
+/*------------------------------------------------------------------------------------------ 830 width ----------------*/
+@media screen and (max-width: 830px){
+  #deomzetter h1{
+    font-size: 46px;
+  }  
+  #deomzetter p{
+    font-size:21px;
+  }
+  #balance{
+    width: 18vw;
+    height: 23vh;
+    padding-bottom: 1em;
+  }
+  .h1{
+    padding-top: 3em;
+    font-size: 27px;
+  }
+  .aboutdef{
+    font-size: 14px;
+  }
+  #title{
+    font-size: 32px;
+  }
+  #about{
+    font-size: 36px;
+  }
+  .description h2{
+    font-size: 26px;
+  }
+  #currencyOpt{
+    height: 5vh;
+    width: 7vw;
+  }
+  .description p{
+    font-size: 16px;
+  }
+  .label{
+    font-size: 13px;
+  }
+  label{
+    width: 9vw;
+  }
+}
+/*------------------------------------------------------------------------------------------ 770 width ----------------*/
+@media screen and (max-width: 770px){
+  #homecontents{
+    flex-direction: column;
+  }
+  #deomzetter h1{
+    text-align: center;
+    font-size: 42px;
+  }  
+  #deomzetter p{
+    text-align: center;
+    font-size:19px;
+  }
+  #balance{
+    width: 29vw;
+    height: 27vh;
+  }
+  #aboutcontents{
+    height: 75vh;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-top: 0em;
+  }
+  #currencycontent, #unitcontent{
+    width: 35vw;
+    height: 31vh;
+    padding-bottom: 2em;
+    padding-right: 4em;
+    padding-left: 4em;
+    
+  }
+  #about{
+    padding-top: 0em;
+    padding-bottom: 0.3em;
+  }
+  .h1{
+    padding-top: 1.4em;
+    font-size: 27px;
+  }
+  #currencyboxes{
+    height: 76vh;
+    flex-direction: column;
+  }
+  #currencyconverthead{
+    padding-top: 4em;
+  }
+  #currencyOpt{
+    height: 5vh;
+    width: 8vw;
+  }
+  .contents{
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  input{
+    height: 3.2vh;
+    width: 23vw;
+  }
+  #list{
+    height: 25vh;
+    width: 28vw;
+    font-size: 12px;
+  }
+  #abbreviations{
+    padding-left: 1em;
+  }
+}
+
+/*------------------------------------------------------------------------------------------ 705 width ----------------*/
+@media screen and (max-width: 705px){
+  #currencycontent, #unitcontent{
+    width: 38vw;
+    height: 31vh;
+  }
+}
+
+/*------------------------------------------------------------------------------------------ 690 width ----------------*/
+@media screen and (max-width: 690px){
+  #list {
+    width: 30vw;
+  }
+  #currencycontent, #unitcontent{
+    width: 44vw;
+    height: 31vh;
+  }
+  label {
+    width: 11vw;
+  }
+  .tabs {
+    height: 8vh;
+    width: 74vw;
+  }
+  .buttons {
+    font-size: 12px;
+  }
+}
+
+/*------------------------------------------------------------------------------------------ 590 width ----------------*/
+@media screen and (max-width: 590px){
+  .load{
+    width:17vw;
+    height:17vh;
+  }
+  #title {
+    font-size: 28px;
+  }
+  .nav {
+    font-size: 14px;
+  }
+  #deomzetter h1 {
+    font-size: 38px;
+  }
+  #deomzetter p {
+    font-size: 16px;
+  }
+  #list {
+    width: 35vw;
+  }
+  #currencycontent, #unitcontent{
+    width: 48vw;
+  }
+  label {
+    width: 12vw;
+  }
+  input {
+    height: 3.1vh;
+    width: 35vw;
+  }
+  #currencyOpt {
+    height: 5vh;
+    width: 10vw;
+  }
+  #list {
+    width: 40vw;
+  }
+  .tabs {
+    height: 7vh;
+    width: 75vw;
+  }
+  .buttons {
+    font-size: 10px;
+  }
+  .footer{
+    font-size: 10px;
+  }
+  .footer a{
+    font-size: 25px;
+  }
+}
+
+/*------------------------------------------------------------------------------------------ 520 width ----------------*/
+@media screen and (max-width: 520px){
+  #currencycontent, #unitcontent{
+    width: 52vw;
+  }
+  .h1 {
+    padding-top: 2em;
+    font-size: 22px;
+  }
+  .aboutdef {
+    font-size: 12px;
+  }
+}
+
+/*------------------------------------------------------------------------------------------ 490 width ----------------*/
+@media screen and (max-width: 490px){
+  #deomzetter h1 {
+    font-size: 34px;
+  }
+  #deomzetter p {
+    font-size: 14px;
+  }
+  label {
+    width: 12vw;
+  }
+  #about {
+    font-size: 32px;
+  }
+  #currencyOpt {
+    height: 5vh;
+    width: 12vw;
+  }
+  #list {
+    width: 42vw;
+  }
+  .tabs {
+    height: 6.5vh;
+    width: 80vw;
+  }
+  .buttons {
+    font-size: 9px;
+  }
+  .footer{
+    font-size: 9px;
+  }
+  .footer a{
+    font-size: 22px;
+  }
+  label {
+    width: 18vw;
+  }
+}
+
+/*------------------------------------------------------------------------------------------ 450 width ----------------*/
+@media screen and (max-width: 450px){
+  .nav {
+    font-size: 12px;
+    width: 50%;
+  }
+  .navclick div{
+    width: 20px;
+    height: 2.4px;
+    margin:3.3px;
+  }
+  .toggle .line1{
+    transform: rotate(-45deg) translate(-4px,4px);
+  }
+  .toggle .line2{
+    opacity: 0;
+  }
+  .toggle .line3{
+    transform: rotate(45deg) translate(-4px,-4px);
+  }
+  #balance{
+    width: 42vw;
+    height: 27vh;
+    padding-bottom: 0em;
+  }
+  .tabs {
+    height: 5.6vh;
+  }
+  .buttons {
+    width: 16vw;
+    font-size: 8px;
+  }
+  #currencyOpt {
+    width: 14vw;
+  }
+}
+
+/*------------------------------------------------------------------------------------------ 400 width ----------------*/
+@media screen and (max-width: 400px){
+  .nav {
+    width: 60%;
+  }
+  .load{
+    width:19vw;
+    height:19vh;
+  }
+  #title {
+    font-size: 26px;
+  }
+  #deomzetter h1 {
+    font-size: 30px;
+  }
+  #deomzetter p {
+    font-size: 12px;
+  }
+  .h1 {
+    padding-top: 2.4em;
+    font-size: 20px;
+  }
+  .aboutdef {
+    font-size: 11px;
+  }
+  #list {
+    width: 52vw;
+  }
+  .buttons {
+    width: 18vw;
+  }
+  .tabContents {
+    height: 80vh;
+  }
+  .footer-icons {
+    margin-top: 0.5em;
+    margin-bottom: 1.4em;
+    width: 80vw;
+  }
+  .footer a{
+    font-size: 20px;
+  }
+  .footer p{
+    margin-top: 0.4em;
+  }
+  #currencyOpt {
+    width: 15vw;
+  }
+}
+
+/*------------------------------------------------------------------------------------------ 350 width ----------------*/
+@media screen and (max-width: 350px){
+  #title {
+    font-size: 22px;
+  }
+  #deomzetter h1 {
+    font-size: 28px;
+  }
+  #deomzetter p {
+    font-size: 10px;
+  }
+  #homecontents {
+    margin-top: 2em;
+  }
+  #balance {
+    width: 50vw;
+    height: 16vh;
+  }
+  #about {
+    font-size: 26px;
+  }
+  #currencycontent, #unitcontent {
+    width: 65vw;
+    height: 30vh;
+    padding-right: 2em;
+    padding-left: 2em;
+  }
+  .h1 {
+    padding-top: 2.6em;
+  }
+  .description h2 {
+    font-size: 22px;
+  }
+  input {
+    height: 2.8vh;
+    width: 38vw;
+    font-size: 12px;
+  }
+  #currencyOpt {
+    height: 4.4vh;
+    width: 17vw;
+  }
+  #abbreviations {
+    font-size: 15px;
+  }
+  #list {
+    width: 60vw;
+  }
+  .tabs {
+    height: 5.4vh;
+    width: 85vw;
+  }
+  .buttons {
+    width: 20vw;
+    font-size: 6px;
+  }
+  .convert {
+    width: 90%;
+}
+  .description p {
+    font-size: 12px;
+  }
+  .label {
+    font-size: 11px;
+  }
 }

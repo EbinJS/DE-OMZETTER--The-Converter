@@ -9,7 +9,6 @@ export default function Currency(currency) {
         onChangeAmount,
         amount
     } = currency;
-    console.log(amount);
     return (
         <div>
             <input type='number' value={amount} onChange={onChangeAmount}></input>
