@@ -10,7 +10,7 @@
 
 ---
 
-## 💻 LIVE DEMO
+## 💻 DEMO
 
 View [De Omzetter](https://de-omzetter-ebinjs.netlify.app/)
 
