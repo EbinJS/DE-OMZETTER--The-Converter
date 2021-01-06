@@ -26,7 +26,7 @@ export default function Footer() {
                 </div>
                 <hr />
                 <p>Made with ❤️ by Ebin JS</p>
-                <p className="copyright">© 2020 Ebin JS</p>
+                <p className="copyright">© 2021 Ebin JS</p>
             </footer>
         </div>
     )

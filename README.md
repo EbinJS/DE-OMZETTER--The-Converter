@@ -1,70 +1,43 @@
-# Getting Started with Create React App
+<h1 align="center">DE OMZETTER | The Converter</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![preview_image](public/preview.png)
 
-## Available Scripts
+<div align="center">
+  <p><b>'DE OMZETTER' A.K.A 'The Converter'</b>. Provides the functionalities such as, 'Currency Converter' & 'Unit Converters' (Length, Weight, Time, Temperature & Speed).</p>
+</div>
 
-In the project directory, you can run:
+<br />
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## 💻 LIVE DEMO
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+View [De Omzetter](https://de-omzetter-ebinjs.netlify.app/)
 
-### `npm test`
+<br />
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## ⚖️ GUIDANCE
 
-### `npm run build`
+Mainly two forms of converters :
+1. Currency Converter
+2. Unit Converters
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Currency Converter
+   - Allows currency conversion
+   - Uses REST API
+   - Automatically changes conversion rate as per the changes over each currency
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Unit Converters
+   - 5 different unit converters
+   - Length, Weight, Time, Temperature & Speed.
+   - Simultaneously converts every fields for each of the unit converters
+ 
+ `Contact is provided at the bottom of the webpage`
+ 
+ `For any suggestions & improvements please contact through any of the provided platforms.`
+ 
+>Keen on getting suggestions🤩. Cheers 😇
+ 
+ <br />
+ 
+ ---
