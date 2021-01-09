@@ -1,4 +1,4 @@
-<h1 align="center">DE OMZETTER | The Converter</h1>
+<h1 align="center">DE OMZETTER | The Converter ⚖️</h1>
 
 ![preview_image](public/preview.png)
 
